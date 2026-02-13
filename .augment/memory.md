@@ -50,8 +50,10 @@ docs/
 │   ├── problem_statement.md            # 问题陈述
 │   └── woz_method_analysis.md          # WoZ方法分析
 ├── 02_brainstorming/
-│   ├── humanoid_robot_applications.md  # V1 头脑风暴版
-│   └── humanoid_robot_applications_v2_trends.md  # V2 行业热点+被试可行性版
+│   ├── humanoid_robot_applications.md              # V1 头脑风暴版
+│   ├── humanoid_robot_applications_v2_trends.md    # V2 行业热点+被试可行性版
+│   ├── humanoid_robot_applications_v3_niche.md     # V3 非主流细分领域版
+│   └── humanoid_robot_applications_v4_affluent.md  # V4 支付能力导向版 🆕
 ├── 03_requirements/                    # 待填充
 ├── 04_user_journeys/                   # 待填充
 └── 05_technical_design/                # 待填充
@@ -65,19 +67,64 @@ docs/
 - `user-journeys`: 用户旅程
 - `perplexity`: Perplexity AI搜索
 - `google-trends`: Google趋势分析
+- `sociologist-analyst`: 社会学分析（群体动态、权力关系） 🆕
+- `ux-researcher`: 用户研究（田野调查、情境访谈） 🆕
+
+## 文档版本说明
+
+| 版本 | 文件名 | 方法论 | 核心问题 |
+|------|--------|--------|----------|
+| V1 | `humanoid_robot_applications.md` | 纯头脑风暴 | "机器人能做什么？" |
+| V2 | `humanoid_robot_applications_v2_trends.md` | 行业热点导向 | "什么场景最火？" |
+| V3 | `humanoid_robot_applications_v3_niche.md` | 社会学视角 | "谁在默默吃苦？" |
+| **V4** | `humanoid_robot_applications_v4_affluent.md` | **支付能力导向** | **"谁愿意买单？"** |
+
+## 应用场景评估结果（V4 - 支付能力版 2026-02-13）
+
+### 🏆 V4 推荐场景 Top 5（关注支付能力）
+
+| 排名 | 场景 | 核心价值 |
+|------|------|----------|
+| 🥇 | **高端家庭助手** | 支付能力最强+人形必要性高+交互空间大 |
+| 🥈 | **独居白领生活助手** | 目标用户即被试+情感交互需求 |
+| 🥉 | **双职工家庭育儿辅助** | 痛点极度真实+支付意愿强 |
+| 4 | **高端养老社区服务** | B端采购+行业刚需 |
+| 5 | **小型店铺服务机器人** | 广泛适用+交互明确 |
+
+### V3 vs V4 核心差异
+
+| V3 非主流版 | V4 支付能力版 |
+|-------------|---------------|
+| 关注**劳动痛点** | 关注**支付能力** |
+| 受益者≠买单者（断裂） | 用户=买单者（闭环） |
+| 保安、后厨、建筑工人 | 高端家庭、独居白领、双职工 |
+
+### 商业逻辑（Tesla策略）
+
+```
+早期人形机器人 = 高端奢侈品，不是大众工具
+Roadster（超高端）→ Model S（高端）→ Model 3（大众）
+高净值家庭 → 中产家庭 → 大众市场
+```
 
 ## 下一步建议
 
-1. 从Top 3中选择1-2个场景深入研究
+1. 从V2或V3中选择1-2个场景深入研究
 2. 使用 `product-requirements` skill 编写详细实验需求
 3. 使用 `user-journeys` skill 设计实验流程
-4. 使用 `deep-research` skill 进行文献研究
+4. 使用 `sociologist-analyst` skill 深入分析目标群体
+5. 可考虑进行实地田野观察（情境调查）
 
 ## 关键决策记录
 
 | 日期 | 决策 | 原因 |
 |------|------|------|
 | 2026-02-13 | 排除养老护理场景 | 老人难以使用VR设备，被试可行性极低 |
-| 2026-02-13 | 家庭助手排名第一 | 被试极易招募 + 2026商业化元年 + 交互空间大 |
+| 2026-02-13 | 家庭助手排名第一(V2) | 被试极易招募 + 2026商业化元年 + 交互空间大 |
 | 2026-02-13 | V2完全重写 | 基于网络搜索行业热点，不参考V1结果 |
+| 2026-02-13 | 创建V3非主流版 | 远离主流赛道，关注被忽视的蓝领群体 |
+| 2026-02-13 | V3首推夜间保安 | 人形必要性高+VR可行+交互空间大+被试易招 |
+| 2026-02-13 | 创建V4支付能力版 | V3场景受益者无支付能力，需关注买单者 |
+| 2026-02-13 | V4首推高端家庭助手 | 支付能力+人形必要性+交互价值三高 |
+| 2026-02-13 | 采用Tesla策略 | 早期机器人应走高端路线，再逐步下沉 |
 
