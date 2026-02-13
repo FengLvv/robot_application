@@ -71,8 +71,9 @@ docs/
 - `user-journeys`: 用户旅程
 - `perplexity`: Perplexity AI搜索
 - `google-trends`: Google趋势分析
-- `sociologist-analyst`: 社会学分析（群体动态、权力关系） 🆕
-- `ux-researcher`: 用户研究（田野调查、情境访谈） 🆕
+- `sociologist-analyst`: 社会学分析（群体动态、权力关系）
+- `ux-researcher`: 用户研究（田野调查、情境访谈）
+- `literature-review`: 文献综述（poemswe + jimmc414） 🆕
 
 ## 文档版本说明
 
